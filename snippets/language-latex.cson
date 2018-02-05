@@ -9,7 +9,7 @@
   "dvipdfmx":
     "prefix": "dvipdfmx"
     "body": "\\\\usepackage[dvipdfmx]{graphicx}"
-  "subfigure":
+  "usepackage{subfigure}":
     "prefix":"subfigure"
     "body":"\\\\usepackage{subfigure}"
 # document level
