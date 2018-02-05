@@ -9,6 +9,9 @@
   "dvipdfmx":
     "prefix": "dvipdfmx"
     "body": "\\\\usepackage[dvipdfmx]{graphicx}"
+  "subfigure":
+    "prefix":"subfigure"
+    "body":"\\\\usepackage{subfigure}"
 # document level
   'part':
     'prefix': 'part'
