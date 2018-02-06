@@ -68,8 +68,10 @@
     'body': '\\\\begin{tabular}{${1:column alignment}}\n\t$0\n\\\\end{tabular}'
   'subfigure':
     'prefix':'subfigure'
-    'body':'\\\\begin{figure}[htbp]\n\t\\\\subfigure[]{\n\t\\\\includegraphics[clip, width=0.5\\\\columnwidth]{}}\n\t\\\\subfigure[]{\n\t\\\\includegraphics[clip, width=0.5\\\\columnwidth]{}}\n\t\\\\label{fig:examLMR}\n\t\\\\caption{}\n\t\\\\end{figure}'
-
+    'body':'\\\\begin{figure}[htbp]\n\t\\\\subfigure[]{\n\t\\\\includegraphics[clip, width=0.5\\\\columnwidth]{}}\n\t\\\\subfigure[]{\n\t\\\\includegraphics[clip, width=0.5\\\\columnwidth]{}}\n\t\\\\label{fig:examLMR}\n\t\\\\caption{}\n\\\\end{figure}'
+  'thebibliography':
+    'prefix':'thebibliography'
+    'body':'\\\\begin{thebibliography}{${1:number of Bibliography}}\n\t\\\\bibitem{$0}\n\\\\end{thebibliography}'
 # element
   'inline math - $$':
     'prefix': 'inline'
