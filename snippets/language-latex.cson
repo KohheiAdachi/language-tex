@@ -59,7 +59,7 @@
     'body': '\\\\begin{gather$1}\n\t$0\n\\\\end{gather$1}'
   'item':
     'prefix':'item'
-    'body':'\\\\item'
+    'body':'\\\\item '
   'itemize':
     'prefix': 'itemize'
     'body': '\\\\begin{itemize}\n\t\\\\item $0\n\\\\end{itemize}'
