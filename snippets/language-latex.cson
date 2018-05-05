@@ -75,6 +75,9 @@
   'thebibliography':
     'prefix':'thebibliography'
     'body':'\\\\begin{thebibliography}{${1:number of Bibliography}}\n\t\\\\bibitem{$0}\n\\\\end{thebibliography}'
+  'lstlisting':
+    'prefix':'lstlisting'
+    'body':'\\\\begin{lstlisting}[basicstyle=\\\\ttfamily\\\\footnotesize,frame=single]\n\t$0\n\\\\end{lstlisting}'
 # element
   'inline math - $$':
     'prefix': 'inline'
